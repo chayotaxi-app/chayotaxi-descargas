@@ -29,6 +29,9 @@ main{max-width:640px;margin:-30px auto 0;padding:0 18px 40px;position:relative;z
 .tienda{flex:1 1 200px;border:2px dashed #cfd8cb;border-radius:16px;padding:14px;text-align:center;color:var(--gris)}
 .tienda strong{display:block;color:var(--texto);font-size:1.05rem}
 .tienda span{display:inline-block;margin-top:6px;background:var(--amarillo);color:#4a3b00;font-weight:700;font-size:.78rem;padding:3px 10px;border-radius:20px}
+.vt{display:flex;gap:14px;align-items:center}
+.vt .ok{flex:0 0 46px;height:46px;border-radius:50%;background:#E8F5E9;color:var(--verde);display:flex;align-items:center;justify-content:center;font-size:1.6rem;font-weight:800}
+.vt a{display:inline-block;margin-top:8px;color:var(--verde);font-weight:700;text-decoration:none;border-bottom:2px solid var(--claro)}
 .contacto a.wa{display:flex;align-items:center;justify-content:center;gap:8px;margin-top:10px;text-decoration:none;color:#fff;background:#25D366;font-weight:700;padding:13px;border-radius:14px}
 footer{text-align:center;color:var(--texto);font-size:1.2rem;line-height:1.6;padding:10px 22px 50px;max-width:600px;margin:0 auto}
 footer b{color:var(--oscuro)}
@@ -69,6 +72,15 @@ footer b{color:var(--oscuro)}
   <section class="card">
     <h2>¿Es segura?</h2>
     <p>Sí. Chayotaxi no es una app maliciosa: la hacemos personas de nuestra región. Descárgala <b>solo desde esta página</b>. Mientras esperamos la verificación de las tiendas, tu celular puede mostrar un aviso al instalar; es normal con las apps que no vienen de una tienda.</p>
+  </section>
+
+  <section class="card vt">
+    <div class="ok">&#10003;</div>
+    <div>
+      <h2 style="margin-bottom:4px">Revisada con VirusTotal</h2>
+      <p>Analizamos este archivo con VirusTotal y ningún antivirus lo marcó como malicioso.</p>
+      <a href="https://www.virustotal.com/gui/file/08b0803d50815179dc7b254db367bfa4aac1bc2928fb0ce3fc883a0b92ffcd2e" target="_blank" rel="noopener">Ver reporte</a>
+    </div>
   </section>
 
   <section class="card contacto">
